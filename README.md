@@ -1,23 +1,11 @@
-basic-b2-template
+# BBDN-Fuji-Xerox
 =================
-
-This project provides the framework for starting a new Building Block (B2) project for Blackboard Learn.  Fork this project and make changes as necessary for your project.
+Takes a PDF, Score, User ID, Content ID, and Course ID, and creates an attempt in the gradebook, posts a score and the pdf.
 
 How To Use This Project
 ====
-
-Clone this repository into a directory: 
-`git clone https://github.com/blackboard/basic-b2-template.git -o template <project name>`
-
-Note that the clone command has assigned the `template` remote identifier to keep it separated from your real origin remote.
-
-Next, add an origin remote for your own git repository: 
-`git remote add origin <URL to your git repo>`
-
-Add your code and push to your origin remote: 
-`git push origin`
+This project was tested on April 2014, October 2014, and Q4 2015. *It uses many private APIs, so use at your own risk. Also tested on SP14, but it doesn't work on that release.
 
 Deploying Your B2
 ===
 To deploy your B2 for testing, run `gradlew deployB2`.
-# BBDN-Fuji-Xerox
